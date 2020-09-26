@@ -34,7 +34,9 @@ import android.os.IBinder;
 import android.os.Looper;
 import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+// TODO rewite using LiveData https://developer.android.com/topic/libraries/architecture/livedata
+//  https://stackoverflow.com/questions/61484995/localbroadcastmanager-has-been-deprecated-what-i-should-use-instead-in-its-plac
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;// has been depreciated
 import android.util.Log;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
